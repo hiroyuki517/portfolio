@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="ja">
+	<head>
+    	<meta charset="utf-8">
+    	<title>ポートフォリオ導入サイト</title>
+    	<meta name="description" content="">
+    	<meta name="viewport" content="width=device-width, initial-scale=1">
+    	<link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css">
+    	<link rel="stylesheet" href="style.css">
+  	</head>
+
+  	<body>
+        <header id="header" class="wrapper">
+            <h3>はじめに</h3>
+            <ul>
+                <li>本サイトは、私、阿部浩之が、ポートフォリオとして制作したWebサイトの概要をまとめたものです。</li>
+                <li>ポートフォリオ用Webサイトは2つあります。URLをクリックすると、別のタブで表示されます。</li>
+                <li class="sph">Webサイトは、レスポンシブデザインに対応しております。スマートフォンから閲覧する際は、QRコードを読み取ってください。<br>（スマートフォンから閲覧した場合、この文章とQRコードは非表示となります）</li>
+                <li>「制作過程」の日付は全て2023年です。</li>
+                <li>Webサイトは、Google Chrome、Microsoft Edge、Firefoxで動作確認をしております。</li>
+            </ul>
+            <p><small>最終更新日：2023年9月21日</small></p>
+        </header>
+
+        <main>
+            <article id="magic" class="wrapper">
+                <div class="visual">
+                    <img src="./img/site_a.png" alt="自営業用サイトのスクリーンショット">
+                </div>
+                <section class="address">
+                    <div class="add_left">
+                        <p>自営業用サイト / マジック教室</p>
+                        <br>
+                        <a href="https://hiroyuki517.github.io/magic/" target="_blank" rel="noopener noreferrer">https://hiroyuki517.github.io/magic/</a>
+                    </div>
+                    <div class="add_right sph">
+                        <img src="./img/magic_qr.png" alt="自営業用サイトのQRコード">
+                    </div>
+                </section>
+                <section>
+                    <h3>設定要件</h3>
+                    <p class="text">「個人でマジック教室を営んでいる方から、
+                    <br>　その教室のWebサイトの制作を依頼されました。」</p>
+                    <ul>
+                        <li>Webサイトの目的：<br>　マジック教室のPRのため、および会員数の増加を促すため。</li>
+                        <li>ターゲットとする客層：<br>　40代～50代の中高年、および60代以上の年配の方。<br>　マジックの経験が無い人にもぜひ来て欲しい。</li>
+                        <li>Webサイト全体の要望：<br>　マジックに触れたことのない人でも、親しみを持ってもらいたい。<br>　一方で、マジックの華やかさも演出して欲しい。</li>
+                    </ul>
+                </section>
+                <section>
+                    <h3>工夫した点</h3>
+                    <ul>
+                        <li>スクロールするだけで全ての情報が見えるように、ページは分割せず、一つのページ内で収まるようにした。</li>
+                        <li>教室のロゴとメニューは、パソコン版とスマートフォン版とで表示を切り替える（後述）。JavaScriptでの扱いを容易にするため、レイアウトの段階から要素の配置を工夫した。</li>
+                        <li>パソコン版：<br>ロゴとメニューは、スクロールをしてもブラウザの画面に固定される。<br>（最上部までスクロールした場合にのみ、ロゴがヘッダーと重なる）</li>
+                        <li>スマートフォン版：<br>ロゴだけがヘッダーと重なり、メニューは画面右上の三角形アイコンをタップすると表示される。<br>（三角形アイコンか、メニューの外をもう一度タップすると消える）</li>
+                    </ul>
+                </section>
+                <section>
+                    <h3>制作過程</h3>
+                    <dl>
+                        <dt>9月5日（1日目）</dt><dd>レイアウト制作</dd>
+                        <dt>9月6日（2日目）</dt><dd>HTML/CSSコーディング開始</dd>
+                        <dt>9月7日（3日目）</dt><dd>JavaScriptプログラミング開始</dd>
+                        <dt>9月9日（5日目）</dt><dd>画像素材の撮影と編集、ロゴ画像制作</dd>
+                        <dt>9月11日（7日目）</dt><dd>JavaScript追加</dd>
+                        <dt>9月12日（8日目）</dt><dd>レスポンシブ対応開始</dd>
+                        <dt>9月15日（11日目）</dt><dd>レイアウト修正、プログラム一部修正</dd>
+                        <dt>9月18日（14日目）</dt><dd>フォント修正</dd>
+                        <dt>9月19日（15日目）</dt><dd>GitHub Pagesにアップロード</dd>
+                    </dl>
+                </section>
+                <section class="tool">
+                    <div class="tool_lang">
+                        <h4>使用言語</h4>
+                        <ul>
+                            <li>HTML</li>
+                            <li>CSS</li>
+                            <li>JavaScript（jQuery）</li>
+                        </ul>
+                    </div>
+                    <div class="tool_soft">
+                        <h4>使用ソフトウェア</h4>
+                        <ul>
+                            <li>Visual Studio Code（テキストエディタ）</li>
+                            <li>GIMP（ビットマップ画像編集ソフト）</li>
+                            <li>Inkscape（ベクター画像描画ソフト）</li>
+                        </ul>
+                    </div>
+                </section>
+            </article>
+
+            <article id="promo" class="wrapper">
+                <div class="visual">
+                    <img src="./img/site_b.png" alt="企業用サイトのスクリーンショット">
+                </div>
+                <section class="address">
+                    <div class="add_left">
+                        <p>企業用サイト / IT系プロモーション企業</p>
+                        <br>
+                        <a href="https://hiroyuki517.github.io/promo/" target="_blank" rel="noopener noreferrer">https://hiroyuki517.github.io/promo/</a>
+                    </div>
+                    <div class="add_right sph">
+                        <img src="./img/promo_qr.png" alt="企業用サイトのQRコード">
+                    </div>
+                </section>
+                <section>
+                    <h3>設定要件</h3>
+                    <p class="text">「ある会社の公式サイトのリニューアルを依頼されました。
+                    <br>　その企業は創業から20年以上が経ち、紆余曲折あって、
+                    <br>　昨年は社内組織を一新したそうです。」
+                    <br>　<span>（プロモーション企業なのに、なぜ自社で作らないのかは不明）</span></p>
+                    <br>
+                    <ul>
+                        <li>Webサイトの目的：<br>　会社の内部を革新したことに対する新鮮なイメージと、IT業界全体へ果敢に挑戦していく姿勢をアピールしたい。</li>
+                        <li>ターゲットとする客層：<br>　ITを用いたプロモーションを求めている、新規の顧客となる存在。<br>　これまでは企業案件がメインであったが、フリーランスの顧客も取り入れたい。</li>
+                        <li>Webサイト全体の要望：<br>　あらゆる情報技術を網羅する力強さを、新しさと共に伝えたい。<br>　とくに、会社情報と事業紹介のページには力を入れたい。</li>
+                    </ul>
+                </section>
+                <section>
+                    <h3>工夫した点</h3>
+                    <ul>
+                        <li>HTMLとしては一つのファイルだが、CSSとJavaScriptによって表示できる範囲を分割し、メニューのクリックによって切り替えができるようにした。</li>
+                        <li>コンテンツが切り替わるとき、そのままでは画面の縦位置も維持されているので、スクロールで一番上が表示されるように設定した。</li>
+                        <li>トップ画像は、パソコン版とスマートフォン版で別のものを用意した。<br>（pictureタグとsourceタグで切り替えをした）</li>
+                        <li>「事業紹介」ページは特に見せ場であるため、画像をクリックすると、別画面（モーダル）となって表示されるようにした。</li>
+                        <li>「お問い合わせ」ページはHTMLだけでは送信ができないため、削除ボタンのみ設置し、代わりに削除時にアラートが出るように実装した。<br>（キャンセルすると入力内容が削除されずに残る）</li>
+                    </ul>
+                </section>
+                <section>
+                    <h3>制作過程</h3>
+                    <dl>
+                        <dt>9月5日（1日目）</dt><dd>レイアウト制作</dd>
+                        <dt>9月7日（3日目）</dt><dd>HTML/CSSコーディング開始</dd>
+                        <dt>9月8日（4日目）</dt><dd>JavaScriptプログラミング開始</dd>
+                        <dt>9月10日（6日目）</dt><dd>3D空間制作、画像素材の撮影と編集</dd>
+                        <dt>9月14日（10日目）</dt><dd>レスポンシブ対応開始</dd>
+                        <dt>9月15日（11日目）</dt><dd>レイアウト修正</dd>
+                        <dt>9月16日（12日目）</dt><dd>メインビジュアル画像制作</dd>
+                        <dt>9月18日（14日目）</dt><dd>フォント修正、プログラム修正</dd>
+                        <dt>9月19日（15日目）</dt><dd>GitHub Pagesにアップロード</dd>
+                        <dt>9月20日（16日目）</dt><dd>フィードバックを受け、一部修正</dd>
+                    </dl>
+                </section>
+                <section class="tool">
+                    <div class="tool_lang">
+                        <h4>使用言語</h4>
+                        <ul>
+                            <li>HTML</li>
+                            <li>CSS</li>
+                            <li>JavaScript（jQuery）</li>
+                        </ul>
+                    </div>
+                    <div class="tool_soft">
+                        <h4>使用ソフトウェア</h4>
+                        <ul>
+                            <li>Visual Studio Code</li>
+                            <li>GIMP</li>
+                            <li>Inkscape</li>
+                            <li>ibisPaint X（イラスト描画アプリ）</li>
+                            <li>Unity（ゲームエンジン）</li>
+                            <li>VRoid Studio（3Dモデル制作ソフト）</li>
+                        </ul>
+                    </div>
+                </section>
+            </article>
+        </main>
+
+        <footer id="footer" class="wrapper">
+            <p>&copy;  2023 / Hiroyuki Abe</p>
+        </footer>
+    </body>
+</html>
